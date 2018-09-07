@@ -1,4 +1,4 @@
-package quickFind;
+package quick;
 
 public class QuickFindUF {
     private int[] id;
