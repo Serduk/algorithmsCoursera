@@ -9,9 +9,9 @@ public class QuickUnionUF {
     }
 
     /*
-    * Chase parent pointer until reach root
-    * (depth of i array accesses
-    * */
+     * Chase parent pointer until reach root
+     * (depth of i array accesses
+     * */
     private int root(int i) {
         while (i != id[i]) {
             id[i] = id[id[i]];
