@@ -1,9 +1,7 @@
 package observations;
 
-import java.io.DataInputStream;
-
 public class ThreeSum {
-    public static int count(int[] a) {
+    private static int count(int[] a) {
 
         int n = a.length;
         int count = 0;
