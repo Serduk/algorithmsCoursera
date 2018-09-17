@@ -1,10 +1,10 @@
 package week3;
 
-public class FixdCapacityStackOfStrings {
+public class FixedCapacityStackOfStrings {
     private String[] s;
     private  int n = 0;
 
-    public FixdCapacityStackOfStrings(int capacity) {
+    public FixedCapacityStackOfStrings(int capacity) {
         s = new String[capacity];
     }
 
