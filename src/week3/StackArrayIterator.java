@@ -2,10 +2,14 @@ package week3;
 
 import java.util.Iterator;
 
-public class StackArrayIterator<Item> implements Iterable<Item> {
+public class StackArrayIterator<Item> implements Iterable<Item>, Comparable<Item> {
     private int n = 0;
     private Item[] s;
 
+    @Override
+    public int compareTo(Item o) {
+        return 0;
+    }
 
 
     private class ReverseArrayIterator implements Iterator<Item> {
