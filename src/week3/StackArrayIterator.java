@@ -2,6 +2,9 @@ package week3;
 
 import java.util.Iterator;
 
+/**
+ * StackArrayIterator example
+ * */
 public class StackArrayIterator<Item> implements Iterable<Item>, Comparable<Item> {
     private int n = 0;
     private Item[] s;
