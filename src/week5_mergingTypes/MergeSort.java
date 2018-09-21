@@ -1,6 +1,19 @@
 package week5_mergingTypes;
 
-public class MergeSoft {
+/**
+ * https://www.coursera.org/learn/algorithms-part1/lecture/ARWDq/mergesort
+ *
+ * How many compares does mergesort—the pure version without any optimizations—make to sort an input array that is already sorted?
+ *
+ * linearithmic
+ * Correct
+ * It makes \sim \frac{1}{2} n \log_2 n∼
+ * ​	 nlog
+ * ​	 n compares, which is the best case for mergesort.
+ * We note that the optimized version that checks whether a[mid] \le a[mid+1]a[mid]≤a[mid+1] requires only \sim \log_2 n∼log
+ * ​	 n compares.
+ * */
+public class MergeSort {
     private static void merge(Comparable[] a, Comparable[] aux, int lo, int mid, int hi) {
         assert  isSorted(a, lo, mid);
         assert isSorted(a, mid+1, hi);
