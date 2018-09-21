@@ -34,6 +34,11 @@ public class MergeSoft {
         merge(a, aux,lo, mid, hi);
     }
 
+    public static void sort(Comparable[] a) {
+        Comparable[] aux = new Comparable[a.length];
+        sort(a, aux, 0, a.length-1);
+    }
+
     private static boolean isSorted(Comparable[] a, int b, int c) {
         return true;
     }
