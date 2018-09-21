@@ -1,5 +1,14 @@
 package week4_SortingTypes;
 
+/**
+ * Shell sort
+ *
+ * How many compares does shellsort (using the 3x+13x+1 increment sequence) make on an input array that is already sorted?
+ *
+ * Since successive increment values of hh differ by at least a factor of 3, there are \sim \log_3 n∼log
+ * 3
+ * ​	 n increment values. For each increment value hh, the array is already hh-sorted so it will make \sim n∼n compares.
+ * */
 public class ShellSort {
     public static void sort(Comparable[] a) {
         int n = a.length;
