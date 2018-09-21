@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="23e4719c-4d12-41e8-8865-45c4b0171dfd" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/week4_SortingTypes/ShellSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/week4_SortingTypes/ShellSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/week4_SortingTypes/Shufling.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/week4_SortingTypes/Shuffling.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,37 +27,28 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="15" />
+          <entry key="java" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="15" />
+          <entry key="JAVA" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="3601" />
+          <entry key="java" value="3780" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="3601" />
+          <entry key="JAVA" value="3780" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/week3/Stack.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" selection-start-line="3" selection-end-line="8" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/week3/FixedCapacityStackOfItems.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -115,15 +106,24 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/week4_SortingTypes/ShellSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+            <state relative-caret-position="135">
+              <caret line="9" column="123" selection-start-line="9" selection-start-column="123" selection-end-line="9" selection-end-column="123" />
               <folding>
                 <element signature="e#565#566#0" expanded="true" />
                 <element signature="e#590#591#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/week4_SortingTypes/Shuffling.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="38" lean-forward="true" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -192,6 +192,8 @@
         <option value="$PROJECT_DIR$/src/week4_SortingTypes/SelectionSort.java" />
         <option value="$PROJECT_DIR$/src/week4_SortingTypes/InsertionSort.java" />
         <option value="$PROJECT_DIR$/src/week4_SortingTypes/ShellSort.java" />
+        <option value="$PROJECT_DIR$/src/week4_SortingTypes/Shufling.java" />
+        <option value="$PROJECT_DIR$/src/week4_SortingTypes/Shuffling.java" />
       </list>
     </option>
   </component>
@@ -233,7 +235,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537537567490" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537538358465" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="RunDashboard">
@@ -302,7 +304,7 @@
     <frame x="719" y="-1080" width="1920" height="1080" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23588924" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23588924" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -316,7 +318,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.48402557" visible="true" weight="0.25227964" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.48402557" visible="true" weight="0.25227964" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.51597446" side_tool="true" visible="true" weight="0.25227964" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -454,12 +456,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/week4_SortingTypes/ShellSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+        <state relative-caret-position="135">
+          <caret line="9" column="123" selection-start-line="9" selection-start-column="123" selection-end-line="9" selection-end-column="123" />
           <folding>
             <element signature="e#565#566#0" expanded="true" />
             <element signature="e#590#591#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/week4_SortingTypes/Shuffling.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="38" lean-forward="true" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
         </state>
       </provider>
     </entry>
