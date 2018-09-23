@@ -1,4 +1,4 @@
-package week5_mergingTypes;
+package week5_mergSortTypes;
 
 /**
  * https://www.coursera.org/learn/algorithms-part1/lecture/ARWDq/mergesort
