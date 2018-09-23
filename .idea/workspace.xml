@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="23e4719c-4d12-41e8-8865-45c4b0171dfd" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/week5_mergingTypes/ComparatorsSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/week5_mergingTypes/Insertion.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -27,37 +27,28 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="22" />
+          <entry key="java" value="23" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="22" />
+          <entry key="JAVA" value="23" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="5407" />
+          <entry key="java" value="5571" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="5407" />
+          <entry key="JAVA" value="5571" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/week4_SortingTypes/ShellSort.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="35" selection-start-line="35" selection-end-line="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/week5_mergingTypes/MergeSort.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -76,11 +67,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/week5_mergingTypes/ComparatorsSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-164">
-              <caret line="5" column="64" lean-forward="true" selection-start-line="5" selection-start-column="64" selection-end-line="5" selection-end-column="64" />
+            <state relative-caret-position="168">
+              <caret line="14" selection-start-line="14" selection-end-line="22" selection-end-column="5" />
               <folding>
                 <element signature="e#429#430#0" expanded="true" />
                 <element signature="e#471#472#0" expanded="true" />
@@ -89,6 +80,15 @@
                 <element signature="e#763#764#0" expanded="true" />
                 <element signature="e#801#802#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/week5_mergingTypes/Insertion.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
@@ -196,6 +196,8 @@
         <option value="$PROJECT_DIR$/src/week5_mergingTypes/MergeSort.java" />
         <option value="$PROJECT_DIR$/src/week5_mergingTypes/BottomUpMergeSort.java" />
         <option value="$PROJECT_DIR$/src/week5_mergingTypes/ComparatorsSort.java" />
+        <option value="$PROJECT_DIR$/src/week5_mergingTypes/Stability.java" />
+        <option value="$PROJECT_DIR$/src/week5_mergingTypes/Insertion.java" />
       </list>
     </option>
   </component>
@@ -235,7 +237,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537737615696" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537738386952" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
@@ -474,8 +476,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/week5_mergingTypes/ComparatorsSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-164">
-          <caret line="5" column="64" lean-forward="true" selection-start-line="5" selection-start-column="64" selection-end-line="5" selection-end-column="64" />
+        <state relative-caret-position="168">
+          <caret line="14" selection-start-line="14" selection-end-line="22" selection-end-column="5" />
           <folding>
             <element signature="e#429#430#0" expanded="true" />
             <element signature="e#471#472#0" expanded="true" />
@@ -484,6 +486,13 @@
             <element signature="e#763#764#0" expanded="true" />
             <element signature="e#801#802#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/week5_mergingTypes/Insertion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
