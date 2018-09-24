@@ -40,7 +40,8 @@ public class QuickSort {
         a[b] = swap;
     }
 
-    private static void sort(Comparable[] a,) {
+    private static void sort(Comparable[] a) {
+//        Shufle needed for performance guarantee (stay turned)
 //        random.shuffle(a)
         sort(a, 0, a.length - 1);
     }
