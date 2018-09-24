@@ -1,6 +1,4 @@
-package week5_quicckSortTypes;
-
-import java.util.Random;
+package week5_quickSortTypes;
 
 public class QuickSort {
     private static int partiotion(Comparable[] a, int lo, int hi) {
