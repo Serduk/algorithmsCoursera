@@ -1,5 +1,20 @@
 package week5_Priority_Queues;
 
+/**
+ * https://www.coursera.org/learn/algorithms-part1/lecture/A3kA3/apis-and-elementary-implementations
+ *
+ * What is the expected number of array accesses and compares, respectively,
+ * to insert a random key into an ordered-array implementation of a priority queue?
+ *
+ *
+ * linear and logarithmic
+ *
+ * Correct
+ * We can use binary search to find the insertion point using a logarithmic number of compares.
+ * On average, the key to be inserted must be placed in the middle of the array—to keep the array in order,
+ * we must shift over all larger keys.
+ *
+ * */
 public class UnorderedMaxPQ<Key extends Comparable<Key>> {
     private Key[] pq;
     private int n;
