@@ -1,6 +1,10 @@
 package week5_quickSortTypes;
 
-public class DoubleKeys {
+/**
+ * Douplicate Keys
+ * https://www.coursera.org/learn/algorithms-part1/lecture/XvjPd/duplicate-keys
+ * */
+public class DublicateKeys {
     private static void sort(Comparable[] a, int lo, int hi) {
         if (hi <= lo) return;
 
