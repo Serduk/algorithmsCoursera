@@ -1,4 +1,4 @@
-package week5_quickSortTypes;
+package week4_quickSortTypes;
 
 /**
  * Douplicate Keys

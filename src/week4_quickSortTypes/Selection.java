@@ -1,4 +1,4 @@
-package week5_quickSortTypes;
+package week4_quickSortTypes;
 
 /**
  * Lection https://www.coursera.org/learn/algorithms-part1/lecture/UQxFT/selection

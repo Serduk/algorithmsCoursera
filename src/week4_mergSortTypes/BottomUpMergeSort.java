@@ -1,4 +1,4 @@
-package week5_mergSortTypes;
+package week4_mergSortTypes;
 
 public class BottomUpMergeSort {
     private static void merge(Comparable[] a, int lo, int mid, int hi) {

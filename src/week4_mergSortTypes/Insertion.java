@@ -1,4 +1,4 @@
-package week5_mergSortTypes;
+package week4_mergSortTypes;
 
 
 public class Insertion {

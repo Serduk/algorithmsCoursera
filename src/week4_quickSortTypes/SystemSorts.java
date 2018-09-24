@@ -1,4 +1,4 @@
-package week5_quickSortTypes;
+package week4_quickSortTypes;
 
 import java.util.Arrays;
 
@@ -19,8 +19,6 @@ import java.util.Arrays;
  * */
 public class SystemSorts {
     public static void main(String[] args) {
-        int n = args.length;
-
         Arrays.sort(args);
         for (String anA : args) {
             System.out.println(anA);

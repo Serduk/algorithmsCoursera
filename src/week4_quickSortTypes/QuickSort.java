@@ -1,7 +1,7 @@
-package week5_quickSortTypes;
+package week4_quickSortTypes;
 
 public class QuickSort {
-    private static int partiotion(Comparable[] a, int lo, int hi) {
+    private static int partition(Comparable[] a, int lo, int hi) {
         int i = lo, j = hi + 1;
 
         while (true) {
@@ -51,7 +51,7 @@ public class QuickSort {
         int m = medianOf3(a, lo, lo + (hi - lo) / 2, hi);
         swap(a, lo, m);
 
-        int j = partiotion(a, lo, hi);
+        int j = partition(a, lo, hi);
         sort(a, lo, j - 1);
         sort(a, j + 1, hi);
     }
