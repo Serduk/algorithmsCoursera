@@ -46,8 +46,21 @@ public class QuickSort {
 
     private static void sort(Comparable[] a, int lo, int hi) {
         if (hi <= lo) return;
+
+//        improve running time to 10%
+        int m = medianOf3(a, lo, lo + (hi - lo) / 2, hi);
+        swap(a, lo, m);
+
         int j = partiotion(a, lo, hi);
         sort(a, lo, j - 1);
         sort(a, j + 1, hi);
+    }
+
+    private static int medianOf3(Comparable[] a, int lo, int medium, int hi) {
+        return medium;
+    }
+
+    private static void swap(Comparable[] a, int lo, int m) {
+//        SWAP;
     }
 }
