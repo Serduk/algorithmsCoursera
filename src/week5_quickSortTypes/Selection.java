@@ -13,7 +13,7 @@ public class Selection {
             int j = partition(a, lo, hi);
 
             if (j < k) lo = j + 1;
-            else if (j < k) lo = j + 1;
+            else if (j > k) lo = j + 1;
             else return a[k];
         }
 
