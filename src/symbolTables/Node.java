@@ -1,10 +1,11 @@
 package symbolTables;
 
-public class Node<Key, Value> extends Comparable<>{
+public class Node<Key, Value> implements Comparable {
     private Key key;
     private Value value;
     private Node node;
     private Node root;
+    private int count;
 
     public Node(Key key, Value value) {
         this.key = key;
@@ -56,5 +57,41 @@ public class Node<Key, Value> extends Comparable<>{
 
     private Node right() {
         return node;
+    }
+
+    public Key floor(Key key) {
+        Node x = floor(root, key);
+
+        if (x == null) return null;
+//        return x.key;
+        return null;
+    }
+
+    public Node floor(Node node, Key key) {
+
+        if (node == null) return null;
+
+//        int cmp = key.compareTo(key);
+        int cmp = 1;
+
+        if (cmp == 0) {
+            return node;
+        }
+
+        if (cmp < 0) return floor(node.left(), key);
+
+        Node t = floor(node, key);
+
+        if (t != null) return t;
+        else return node;
+    }
+
+    public int size() {
+        return size(root);
+    }
+
+    public int size(Node node) {
+        if (node == null) return 0;
+        else return node.count;
     }
 }
