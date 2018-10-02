@@ -47,4 +47,27 @@ public class UnorderedMaxPQ<Key extends Comparable<Key>> {
 
     private static void exch(int j, int b) {
     }
+
+/**
+ * Heap sort implementation
+ * https://www.coursera.org/learn/algorithms-part1/lecture/ZjoSM/heapsort
+ * */
+    private void sort() {
+        int n = pq.length;
+        for (int k = n/2; k >= 1; k--) {
+            sink(pq, k, n);
+            while (n > 1) {
+                exch(pq, 1, n);
+                sink(pq, k, n);
+            }
+        }
+    }
+
+    private void sink(Comparable[] k, int a, int n) {
+
+    }
+
+    private void exch(Comparable[] k, int a, int n) {
+
+    }
 }

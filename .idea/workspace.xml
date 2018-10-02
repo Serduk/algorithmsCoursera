@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="23e4719c-4d12-41e8-8865-45c4b0171dfd" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/week5_Priority_Queues/SwimEx.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/week5_Priority_Queues/SwimEx.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/week5_Priority_Queues/UnorderedMaxPQ.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/week5_Priority_Queues/UnorderedMaxPQ.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,13 +16,13 @@
     <session id="-69448304">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="11" />
+          <entry key="project.closed" value="12" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.open.time.5" value="4" />
+          <entry key="project.open.time.5" value="5" />
           <entry key="project.open.time.6" value="4" />
           <entry key="project.open.time.7" value="2" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="12" />
+          <entry key="project.opened" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -37,12 +37,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="8101" />
+          <entry key="java" value="8323" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="8101" />
+          <entry key="JAVA" value="8323" />
         </counts>
       </usages-collector>
     </session>
@@ -70,34 +70,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/week4_quickSortTypes/QuickSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
+            <state relative-caret-position="435">
               <caret line="29" selection-start-line="29" selection-end-line="38" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/week5_Priority_Queues/UnorderedMaxPQ.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="271">
-              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+            <state relative-caret-position="108">
+              <caret line="51" column="27" selection-start-line="51" selection-start-column="27" selection-end-line="51" selection-end-column="27" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/week5_Priority_Queues/SwimEx.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="42" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
-              <folding>
-                <element signature="e#288#289#0" expanded="true" />
-                <element signature="e#334#335#0" expanded="true" />
-                <element signature="e#381#382#0" expanded="true" />
-                <element signature="e#407#408#0" expanded="true" />
-                <element signature="e#452#453#0" expanded="true" />
-                <element signature="e#500#501#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="391">
+              <caret line="66" column="5" selection-start-line="66" selection-start-column="5" selection-end-line="66" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -115,6 +107,7 @@
     <findStrings>
       <find>r</find>
       <find>aux</find>
+      <find>sort</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -161,16 +154,14 @@
         <option value="$PROJECT_DIR$/src/week5_quickSortTypes/SystemSorts.java" />
         <option value="$PROJECT_DIR$/src/week5_quickSortTypes/QuickSort.java" />
         <option value="$PROJECT_DIR$/src/week4_quickSortTypes/QuickSort.java" />
-        <option value="$PROJECT_DIR$/src/week5_Priority_Queues/UnorderedMaxPQ.java" />
         <option value="$PROJECT_DIR$/src/week5_Priority_Queues/SwimEx.java" />
+        <option value="$PROJECT_DIR$/src/week5_Priority_Queues/UnorderedMaxPQ.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="719" />
-    <option name="y" value="-1080" />
-    <option name="width" value="1920" />
-    <option name="height" value="1080" />
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -199,12 +190,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538475195455" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538481533138" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
@@ -271,10 +262,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="719" y="-1080" width="1920" height="1080" extended-state="0" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25346112" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3490701" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -288,8 +279,8 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.4802982" visible="true" weight="0.25227964" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.51970184" side_tool="true" visible="true" weight="0.25227964" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4792561" visible="true" weight="0.30855018" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5207439" side_tool="true" visible="true" weight="0.30855018" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -490,30 +481,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/week4_quickSortTypes/QuickSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
+        <state relative-caret-position="435">
           <caret line="29" selection-start-line="29" selection-end-line="38" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/week5_Priority_Queues/UnorderedMaxPQ.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/week5_Priority_Queues/SwimEx.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="42" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
-          <folding>
-            <element signature="e#288#289#0" expanded="true" />
-            <element signature="e#334#335#0" expanded="true" />
-            <element signature="e#381#382#0" expanded="true" />
-            <element signature="e#407#408#0" expanded="true" />
-            <element signature="e#452#453#0" expanded="true" />
-            <element signature="e#500#501#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="391">
+          <caret line="66" column="5" selection-start-line="66" selection-start-column="5" selection-end-line="66" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/week5_Priority_Queues/UnorderedMaxPQ.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="51" column="27" selection-start-line="51" selection-start-column="27" selection-end-line="51" selection-end-column="27" />
         </state>
       </provider>
     </entry>
