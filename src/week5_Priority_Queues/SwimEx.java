@@ -6,10 +6,21 @@ import java.security.Key;
  * Example on coursera:
  * https://www.coursera.org/learn/algorithms-part1/lecture/Uzwy6/binary-heaps
  * */
-public class SwimEx {
+public class SwimEx<Key extends Comparable<Key>> {
     int n = 0;
     Key[] pq;
 
+    public SwimEx(int capacity) {
+        pq = (Key[]) new Comparable[capacity + 1];
+    }
+
+    public boolean isEmpty() {
+        return n == 0;
+    }
+
+    private boolean less(int i, int j) {
+        return pq[i].compareTo(pq[j]) < 0;
+    }
 
     private void swim(int k) {
         while (k > 1 && less(k/2, k)) {
