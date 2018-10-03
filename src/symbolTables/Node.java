@@ -1,5 +1,9 @@
 package symbolTables;
 
+/**
+ * example:
+ * https://www.coursera.org/learn/algorithms-part1/lecture/PWZAr/deletion-in-bsts
+ * */
 public class Node<Key, Value> implements Comparable {
     private Key key;
     private Value value;
